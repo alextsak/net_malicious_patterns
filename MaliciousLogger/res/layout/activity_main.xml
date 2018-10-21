@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+     android:background="#000">
+
+<RelativeLayout android:id="@+id/RelativeLayoutMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#000">
+    
+      <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher" 
+        android:contentDescription="@string/imgDesc"/>
+    
+      
+     
+    <!--Username field  -->
+    <EditText
+        android:id="@+id/userLogin"
+        android:layout_width="360dp"
+        android:layout_height="35dp"
+         android:layout_below="@+id/serverText"
+         android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/editborder"
+        android:textColor="#fff"
+        android:textCursorDrawable="@null"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10" android:inputType=""
+        android:hint="@string/username"/>
+    
+    
+    <!--Password field  -->
+    <EditText
+    
+        android:id="@+id/passLogin"
+        android:layout_width="360dp"
+        android:layout_height="35dp"
+         android:layout_below="@+id/userLogin"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+      	android:layout_marginTop="20dp"
+      	android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#fff"
+        android:textCursorDrawable="@null"
+         android:background="@drawable/editborder"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:hint="@string/password"/>
+
+    
+    <Button
+	    android:id="@+id/login"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="100dp"
+	    android:layout_height="35dp"
+	    android:layout_below="@+id/passLogin"
+	    android:layout_centerHorizontal="true"
+	    
+      android:textColor="#fff"
+	    android:layout_marginTop="15dp"
+	    android:text="@string/login" />
+
+	
+	<Button
+	    android:id="@+id/Reg"
+	    android:layout_width="100dp"
+	    android:layout_height="35dp"
+	    android:layout_below="@+id/regText"
+	    android:gravity="center"
+	    android:layout_centerHorizontal="true"
+	    
+      	android:textColor="#fff"
+	     android:layout_marginBottom="30dp"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/register"
+	    android:textSize="15sp" />
+
+	<TextView
+	    android:id="@+id/regText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/login"
+	    android:textColor="#fff"
+	   	android:layout_marginTop="25dp"
+	    android:gravity="center"
+	    android:text="@string/regLogger" />
+	
+	<TextView
+	    android:id="@+id/serverText"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/imageView1"
+	    android:textColor="#fff"
+	   	android:layout_marginTop="5dp"
+	    android:gravity="center"
+	    android:text="@string/stext" />
+	
+	
+	
+</RelativeLayout>
+</ScrollView>

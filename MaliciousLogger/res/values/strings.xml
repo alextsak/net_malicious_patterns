@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Malicious Logger</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="newuser">Please Enter a Username:</string>
+     <string name="newpass">Please Enter a Password:</string>
+    <string name="back">Back</string>
+    <string name="register">Register</string>
+    <string name="regLogger">Sign up on Malicious Logger</string>
+    <string name="cbText">Please insert nodes to observe:</string>
+    <string name="imgDesc">Logger Desc</string>
+    <string name="logout">Log Out</string>
+    <string name="refresh">Refresh</string>
+    <string name="filter">Filter</string>
+    <string name="login">Login</string>
+    <string name="howto"><u>How to Register</u></string>
+     <string name="stats">Statistics</string>
+     
+    <string name="add">Add</string>
+    <string name="pref">Preferences</string>
+    <string name="del">Please check the nodes for deletion</string>
+    <string name="pat">Please enter malicious pattern:</string>
+     <string name="submit">submit</string>
+     <string name="delete">Delete</string>
+   <string name="server">Dynamic Server IP ?</string>
+   <string name="stext">Click the above icon to give server IP</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

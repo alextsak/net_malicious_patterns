@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+     android:background="#000">
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="#000"
+    android:id="@+id/RelMain">
+
+    <TextView
+        android:id="@+id/statsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:text="@string/stats"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/uidText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/statsText"
+        android:layout_marginTop="18dp"
+        android:text="@string/stats"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+    
+    
+    <TextView
+        android:id="@+id/interfaceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/uidText"
+        android:layout_marginTop="18dp"
+        android:text="@string/stats"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/interfaceText"
+        android:layout_marginTop="18dp"
+        android:text="@string/stats"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" />
+    
+    <TableLayout
+           
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/table"
+            android:layout_below="@+id/timeText"
+            android:stretchColumns="*"
+             
+             android:layout_marginTop="5dp"/>
+    
+
+</RelativeLayout>
+</ScrollView>

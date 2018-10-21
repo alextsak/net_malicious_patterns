@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="#000">
+
+    
+    
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="@string/logout" />
+    
+    <Button
+         android:id="@+id/RefreshButtonPat"
+         android:layout_width="wrap_content"
+         android:layout_height="40dp"
+         android:layout_alignParentTop="true"
+         
+		android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+         android:text="@string/refresh"
+         android:textColor="#fff"
+         android:textSize="15sp" />
+    
+    
+    <TextView
+        android:id="@+id/patText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/logoutButton"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/pat" />
+    
+    <EditText
+    
+        android:id="@+id/pat"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/patText"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/editborder"
+      	android:layout_marginTop="20dp"
+      	android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:inputType="" 
+       />
+
+    <Button
+        android:id="@+id/submit"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+		android:layout_centerHorizontal="true"
+		android:textColor="#fff"
+		
+        android:layout_below="@+id/pat"
+        android:layout_marginTop="20dp"
+        android:text="@string/submit" />
+    
+    
+     <TableLayout
+           
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/patTable"
+            android:layout_below="@+id/submit"
+            android:stretchColumns="*"
+             
+             android:layout_marginTop="10dp"/>
+    
+     <TableLayout
+           
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ipTable"
+            android:layout_below="@+id/patTable"
+            android:stretchColumns="*"
+             
+             android:layout_marginTop="10dp"/>
+
+     
+</RelativeLayout>
+</ScrollView>

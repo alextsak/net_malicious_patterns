@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.packet.monitor.IPTrafficMonitorTest
+Class-Path: /home/pkls/workspace/lib/jnetpcap-1.3.0/jnetpcap.jar

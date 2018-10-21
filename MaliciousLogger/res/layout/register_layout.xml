@@ -1,0 +1,151 @@
+       
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000" >
+
+<RelativeLayout android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#000">
+	
+           <TextView
+         	android:id="@+id/newuserView"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		 android:gravity="center"
+    		android:layout_centerHorizontal="true"
+    		android:textColor="#fff"
+    		 
+    		android:text="@string/newuser" />
+     
+     <EditText
+        android:id="@+id/newuserText"
+        android:layout_width="360dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/newuserView"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/editborder"
+        android:textColor="#fff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+         android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="" 
+        />
+
+     
+     <TextView
+         android:id="@+id/newpassView"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/newuserText"
+    	 android:gravity="center"
+    	 
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginTop="10dp"
+    	android:textColor="#fff"
+    	android:text="@string/newpass" />
+     
+     <EditText
+        android:id="@+id/newpassText"
+        android:layout_width="360dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/newpassView"
+        android:textCursorDrawable="@null"
+         android:gravity="center"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/editborder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:ems="10"
+        android:inputType="textPassword" 
+        />
+
+     	<TextView
+         android:id="@+id/checkBoxText"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/newpassText"
+    	 android:gravity="center"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginTop="10dp"
+    	android:textColor="#fff"
+    	android:textColorHighlight="#022"
+    	android:text="@string/cbText" />
+     
+     	<EditText
+        android:id="@+id/editUid"
+        android:layout_width="360dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/checkBoxText"
+         android:gravity="center"
+        android:background="@drawable/editborder"
+         android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textCursorDrawable="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:ems="10"
+        android:inputType="" 
+        />
+     	
+     	<Button
+		    android:id="@+id/add"
+		    android:layout_width="100dp"
+		    android:layout_height="40dp"
+		    android:layout_below="@+id/editUid"
+		    android:layout_centerHorizontal="true"
+		  	 android:gravity="center"
+		  	  android:textColor="#fff"
+		     android:layout_marginTop="10dp"
+		    android:text="@string/add"
+		    android:textSize="15sp" />
+     
+		<Button
+		    android:id="@+id/Reg"
+		    android:layout_width="100dp"
+		    android:layout_height="40dp"
+		   	android:layout_below="@+id/add"
+		    android:gravity="center"
+		   	android:layout_centerHorizontal="true"
+		    android:layout_marginTop="10dp"
+		    android:textColor="#fff"
+		    android:text="@string/register"
+		    android:textSize="15sp" />
+			
+		
+		
+		<Button
+		    android:id="@+id/how"
+		    android:layout_width="150dp"
+		    android:layout_height="40dp"
+		   	android:layout_below="@+id/checkButton1"
+		    android:background="#000"
+		    android:layout_marginTop="20dp"
+		    android:gravity="center"
+		    android:layout_centerHorizontal="true"
+		    android:text="@string/howto"
+		    android:textColor="#fff"
+		    android:textSize="15sp" />
+
+		<CheckBox
+		    android:id="@+id/checkButton1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		   android:layout_centerHorizontal="true"
+		    android:layout_below="@+id/Reg"
+		    android:layout_marginTop="15dp"
+		     android:textColor="#fff"
+		    android:text="@string/server" />
+
+	</RelativeLayout>
+
+</ScrollView>

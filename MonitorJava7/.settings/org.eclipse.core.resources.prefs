@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/com/webserver/server/AvailableNodes.java=UTF-8
+encoding//src/com/webserver/server/MaliciousPatterns.java=UTF-8
+encoding//src/com/webserver/server/StatisticalReports.java=UTF-8
+encoding//src/com/webserver/server/WebMonitorService.java=UTF-8
+encoding//src/com/webserver/server/WebMonitorServiceImplPortBindingStub.java=UTF-8
+encoding//src/com/webserver/server/WebMonitorServiceImplService.java=UTF-8
+encoding//src/com/webserver/server/WebMonitorServiceImplServiceLocator.java=UTF-8
